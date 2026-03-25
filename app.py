@@ -27,4 +27,6 @@ if button:
         else:
             st.info("Sentiment: Neutral")
 
-        st.write(f"Sentiment Score: {sentiment:.2f}")
+        # st.write(f"Sentiment Score: {sentiment:.2f}")
+        st.write(f"Sentiment Score: {int((sentiment) * 100)}")
+
